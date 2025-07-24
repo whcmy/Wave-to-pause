@@ -109,8 +109,7 @@ while True:
         # 显示图像
         cv2.imshow("Image", img)
         key = cv2.waitKey(1)
-        if key == ord('q'):
-            break  # 按 Q 键退出程序
+       
 
     except Exception as e:
         print("发生异常：", e)
